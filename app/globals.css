@@ -5,14 +5,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* --md-filled-button-container-shape: 0px; */
+
+  /* --md-sys-color-primary: red;
+  --md-sys-color-secondary: blue; */
+
+  --md-sys-color-primary: #006A6A;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-primary-container: #6FF7F6;
+  --md-sys-color-on-primary-container: #002020;
+
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
